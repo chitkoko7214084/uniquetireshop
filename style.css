@@ -387,8 +387,16 @@
     cursor: pointer; /* Change cursor on hover */
     font-size: 16px; /* Font size */
     transition: background-color 0.3s ease; /* Smooth transition */
+    max-height: 200px; /* Set maximum height for the drop-down menu */
+    overflow-y: auto; /* Enable vertical scrolling */
 }
 
 .goog-te-menu-value:hover {
     background-color: #45a049; /* Hover background color */
 }
+
+/* Hide horizontal scrollbar */
+.goog-te-menu-value::-webkit-scrollbar {
+    display: none;
+}
+
