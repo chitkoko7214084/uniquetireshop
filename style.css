@@ -368,3 +368,27 @@
 .carousel-content p {
     font-size: 1.2em;
 }
+
+#google_translate_element {
+    margin-top: 5px; /* Adjust spacing from the top */
+    text-align: center; /* Center the widget */
+    font-family: 'Arial', sans-serif; /* Specify font family */
+}
+
+.goog-te-banner-frame {
+    display: none !important; /* Hide Google Translate banner */
+}
+
+.goog-te-menu-value {
+    padding: 10px 20px; /* Adjust padding */
+    background-color: #4CAF50; /* Background color */
+    color: #fff; /* Text color */
+    border-radius: 25px; /* Border radius */
+    cursor: pointer; /* Change cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.goog-te-menu-value:hover {
+    background-color: #45a049; /* Hover background color */
+}
