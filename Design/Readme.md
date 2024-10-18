@@ -2,11 +2,11 @@
 
 Design documents here... Explain each folder/file in this readme file.
 
-## [Architecture](Architecture.md)
+## [Architecture](https://github.com/chitkoko7214084/uniquetireshop/blob/main/Design/Archiecture.md)
 
 This file details the initial architecture for the project.
 
-## [Business Requirements](BusinessRequirements.md)
+## [Business Requirements](https://github.com/chitkoko7214084/uniquetireshop/blob/main/Design/BusinessRequirements.md)
 
 This file details the business requirements we have identified for our project.
 
