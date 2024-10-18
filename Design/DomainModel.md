@@ -1,40 +1,40 @@
 
 # Domain Model
 
-```mermaid class diagram direction RL
+classDiagram
+    direction RL
 
-Class user{
+    class User {
+        userID : int
+        name: string
+        phonenumber: int
+        language: string (Burmese, Spanish, English)
+    }
 
-    userID :int
-    name: string
-    phonenumber: int
-    language: string (Burmese, Spanish, and English)
-}
+    class Customer {
+        customerID: int
+        + bookService()
+        + chooseDateAndTime()
+    }
 
-Class Customer{
-    customerID: int
-    + bookService()
-    +chooseDateAndTime()
-}
+    class ServiceProvider {
+        login: string
+        password: string
+        + viewAppointments()
+        + updateBooking()
+        + deleteBooking()
+        + makeCall()
+    }
 
-Class Service_provider{
-    login: string
-    password: string
-    + viewAppointments()
-    + updateBooking ()
-    + deleteBooking ()
-    + makeCall ()
+    class Appointment {
+        appointmentID: string
+        date: string
+        serviceType: string
+        customerName: string
+    }
 
-}
 
-Class Appointment{
-    appointmentID: string
-    date: string
-    serviceType: string
-    name: string
-}
 
-```
 
 # Classes
 
